@@ -34,7 +34,7 @@ def is_resource_sufficient(order_ingredients):
     부족한 재료가 하나라도 있으면 바로 안내 메시지 띄우고 중단.
     """
     for item in order_ingredients:
-        # 주문 요구량이 현재 보유량보다 크면 재료 소진으로 판단
+        # 주문 요구량이 현재 보유량보다 크면 재료 소진으로 판단 
         if order_ingredients[item] > resource.get(item, 0):
             print(f'죄송합니다. {item} 재료가 부족합니다.')
             return False
