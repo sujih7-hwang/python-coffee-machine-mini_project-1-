@@ -19,7 +19,8 @@ cd python-coffee-machine
 
 # 3. 프로그램 실행
 python main.py
-💡 학습 포인트 (Learning Points)
+
+학습 포인트 (Learning Points)
 global 키워드: profit, resource 등 전역 변수의 상태를 함수 내부에서 수정하는 법 숙지
 
 중첩 딕셔너리(Nested Dictionary): 복잡한 메뉴 레시피 데이터를 구조화하고 추출하는 방법
